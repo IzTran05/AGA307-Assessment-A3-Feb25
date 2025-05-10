@@ -35,11 +35,7 @@ public class GameManager : SingletonDontDestroy<GameManager>
             case GameState.Menu :
                 break;
             case GameState.Playing :
-                timeLeft -= Time.deltaTime;
-                if (timeLeft < 0)
-                {
-                    GameVictory();
-                }
+              
                 break;
             case GameState.Jumpscare :
                 break;
@@ -52,7 +48,7 @@ public class GameManager : SingletonDontDestroy<GameManager>
         
     }
 
-    private void GameVictory()
+    public void GameVictory()
     {
         Cursor.lockState = CursorLockMode.None;
         gameState = GameState.Victory;

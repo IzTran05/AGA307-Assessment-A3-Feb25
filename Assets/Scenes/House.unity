@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.07450981, g: 0.079912335, b: 0.101960786, a: 1}
+  m_FogColor: {r: 0.07297971, g: 0.07333571, b: 0.0754717, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.114
+  m_FogDensity: 0.16
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -13286,6 +13286,7 @@ GameObject:
   - component: {fileID: 1772630767}
   - component: {fileID: 1772630766}
   - component: {fileID: 1772630769}
+  - component: {fileID: 1772630770}
   m_Layer: 0
   m_Name: DayNightCycle
   m_TagString: Untagged
@@ -13418,6 +13419,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1772630770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772630765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d9b8b5ff706b545964994395b0a543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1778860767
 PrefabInstance:
   m_ObjectHideFlags: 0
